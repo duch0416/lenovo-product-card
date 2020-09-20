@@ -1,22 +1,45 @@
 import React from "react"
-import { Link } from "gatsby"
+import styled from "styled-components"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import BasicInfo from "../components/BasicInfo"
+import MainSection from "../components/MainSection"
+import Specification from "../components/Specification"
+import GlobalStyle from "../styles/globalStyles"
+import Sockets from "../components/Sockets"
+
+const ContentWrapper = styled.div`
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @media (min-width: 768px) {
+    padding: 0 30px;
+  }
+
+
+  @media (min-width: 1240px) {
+    padding: 0 90px;
+  }
+
+
+  @media (min-width: 1400px) {
+    padding: 0 120px;
+  }
+
+  @media (min-width: 1920px) {
+    padding: 0 300px;
+  }
+`
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
+  <>
+    <GlobalStyle />
+    <MainSection />
+    <ContentWrapper>
+      <BasicInfo />
+      <Specification />
+      <Sockets />
+    </ContentWrapper>
+  </>
 )
 
 export default IndexPage
