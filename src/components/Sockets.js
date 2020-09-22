@@ -26,7 +26,7 @@ const Sockets = () => {
       <Image fluid={data.file.childImageSharp.fluid}/>
       <DescContainer>
         {socketsDescriptions.map(desc => (
-          <SocketDesc>{desc}</SocketDesc>
+          <SocketDesc key={desc}>{desc}</SocketDesc>
         ))}
       </DescContainer>
     </Wrapper>

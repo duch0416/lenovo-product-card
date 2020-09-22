@@ -8,7 +8,6 @@ export const Wrapper = styled.div`
   @media (min-width: 1024px) {
     flex-direction: row;
     justify-content: flex-start;
-    padding-bottom: 10px;
   }
 `
 
@@ -17,13 +16,15 @@ export const ValuesContainer = styled.div`
   flex-direction: column;
 
   @media (min-width: 1024px) {
-    margin-top: 20px;
+    margin-top: 17px;
   }
+
 `
 
 export const AdditionalInfo = styled.p`
   font-size: 9px;
   font-weight: 300;
+  margin-top: 2px;
 
   @media (min-width: 1024px) {
     font-size: 12px;
@@ -38,6 +39,8 @@ export const Parameter = styled.h4`
     font-weight: 300;
     width: 200px;
     margin-right: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   @media (min-width: 1400px) {
@@ -46,6 +49,8 @@ export const Parameter = styled.h4`
 `
 
 export const Value = styled.span`
-  margin-bottom: 7px;
   font-weight: 300;
+  margin-bottom: 7px;
+
+  
 `

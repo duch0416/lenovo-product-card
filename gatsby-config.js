@@ -14,6 +14,11 @@ module.exports = {
           {
             family: "Lato",
             variants: [`300`, `400`, `600`]
+          },
+          {
+            family: "Montserrat",
+            variants: [`300`, `400`],
+            subsets: ["latin-ext"],
           }
         ],
       },

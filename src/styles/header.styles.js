@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: left;
   margin-bottom: 20px;
+  font-family: "Montserrat";
 
   p {
     color: white;

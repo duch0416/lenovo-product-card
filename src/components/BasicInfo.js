@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery } from "gatsby"
+import { useStaticQuery , graphql} from "gatsby"
 import styled from "styled-components"
 
 import Section from "./Section"
@@ -41,14 +41,12 @@ const BasicInfo = () => {
 
   return (
     <Wrapper>
-      {edges.map(({node:{childMdx:{frontmatter: {articles, id, featuredImage}}}}) => (
-        <>
+      {edges.map(({node:{childMdx:{frontmatter: {articles, id, featuredImage}}}}) => ( 
           <Section
             key={id}
             articles={articles}
             fluid={featuredImage.childImageSharp.fluid}
           />
-        </>
       ))}
     </Wrapper>
   )

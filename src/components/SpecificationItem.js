@@ -13,7 +13,7 @@ const SpecificationItem = ({ parameter, values, additionalInfo }) => {
       <Parameter>{parameter}</Parameter>
       <ValuesContainer>
         {values.map(value => (
-          <Value>{value}</Value>
+          <Value key={value}>{value}</Value>
         ))}
         {additionalInfo && <AdditionalInfo>{additionalInfo}</AdditionalInfo>}
       </ValuesContainer>
