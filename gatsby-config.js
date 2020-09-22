@@ -8,7 +8,8 @@ module.exports = {
         fonts: [
           {
             family: "Lato",
-            variants: [`300`, `400`, `600`]
+            variants: [`300`, `400`, `600`],
+            subsets: ["latin-ext"],
           },
           {
             family: "Montserrat",
