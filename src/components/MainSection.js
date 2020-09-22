@@ -1,6 +1,6 @@
 import React from "react"
 
-import {Header} from "../styles/title"
+import Header from "./Header"
 import { headertxt } from "../data/text"
 import Hero from "./Hero"
 import Logo from "./Logo"
