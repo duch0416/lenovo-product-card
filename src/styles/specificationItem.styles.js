@@ -25,9 +25,15 @@ export const AdditionalInfo = styled.p`
   font-size: 9px;
   font-weight: 300;
   margin-top: 2px;
+  
 
   @media (min-width: 1024px) {
     font-size: 12px;
+    max-width: 600px;
+  }
+
+  @media(min-width: 1400px){
+    max-width: unset;
   }
 `
 
@@ -38,13 +44,14 @@ export const Parameter = styled.h4`
     font-size: 16px;
     font-weight: 300;
     width: 200px;
-    margin-right: 200px;
+    margin-right: 100px;
     margin-top: 15px;
     margin-bottom: 15px;
   }
 
   @media (min-width: 1400px) {
     font-size: 20px;
+    margin-right: 200px;
   }
 `
 
