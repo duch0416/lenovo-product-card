@@ -2,7 +2,7 @@ import React from "react"
 
 import { socketsDescriptions } from "../data/socketsDesc"
 import { useStaticQuery, graphql } from "gatsby"
-import { Header } from "../styles/header"
+import { Header } from "../styles/title"
 import {Wrapper, Image, DescContainer, SocketDesc} from "../styles/sockets.styles"
 
 

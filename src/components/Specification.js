@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { useStaticQuery, graphql } from "gatsby"
 
 import SpecificationItem from "./SpecificationItem"
-import {Header} from "../styles/header"
+import {Header} from "../styles/title"
 
 const Wrapper = styled.div`
   padding: 10px 0px;

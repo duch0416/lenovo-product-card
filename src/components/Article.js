@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import { Header } from "../styles/header"
+import { Header } from "../styles/title"
 
 const Wrapper = styled.div`
   margin-top: 40px;
