@@ -2,7 +2,7 @@ import React from "react"
 
 import {Wrapper, H1} from "../styles/header.styles"
 
-const Header = ({ title, subtitle, text }) => {
+const MainHeader = ({ title, subtitle, text }) => {
   return (
     <Wrapper>
       <H1>
@@ -14,4 +14,4 @@ const Header = ({ title, subtitle, text }) => {
   )
 }
 
-export default Header
+export default MainHeader

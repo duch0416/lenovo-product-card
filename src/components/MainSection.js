@@ -1,6 +1,6 @@
 import React from "react"
 
-import Header from "./Header"
+import MainHeader from "./MainHeader"
 import { headertxt } from "../data/text"
 import Hero from "./Hero"
 import Logo from "./Logo"
@@ -12,7 +12,7 @@ const MainSection = () => {
       <Logo />
       <Container>
         <Hero />
-        <Header
+        <MainHeader
           title="Yoga S740 (14)"
           subtitle="Wyróżniająca inteligencja"
           text={headertxt}
